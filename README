@@ -1,0 +1,10 @@
+# GME Privileged Information Platform RSS handler
+2019
+Written in Python
+
+Just a quick hack, could use much polish.
+For now all it does is:
+
+- Fetches data from the GME PIP public RSS feed (using requests)
+- Persists data inside a SQLite database (using PonyORM)
+- Exposes a RESTful endpoint to pull data from the database (using Flask and Flask_RESTful)

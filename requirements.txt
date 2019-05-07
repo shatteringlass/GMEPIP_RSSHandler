@@ -1,0 +1,8 @@
+flask
+flask_restful
+loguru
+pony
+requests
+xmltodict
+lxml
+waitress
